@@ -1,0 +1,199 @@
+.web,
+.logo {
+    color: #2196F3;
+    font-family: 'Raleway',sans-serif;
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        /* identical to box height */
+    
+        letter-spacing: 0.03em;
+
+
+}
+
+.logo {
+
+    color: #000000;
+    text-decoration: none;
+    
+
+}
+
+.header {
+    display: flex;
+    height: 80px;
+    text-align: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #ECECEC;
+    align-content: center;
+
+}
+.nav-list{
+    display: flex;
+    gap: 50px;
+    margin-left: 93px;
+}
+
+.navigation {
+
+    font-family: 'Roboto', sans-serif;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: #212121;
+    list-style: none;
+    text-decoration: none;
+
+
+}
+
+.navigation:hover,
+.navigation:focus {
+    color: #2196F3;
+    ;
+
+}
+
+.contact-list{
+    display: flex;
+    gap: 50px;
+    margin-left: 331px;
+}
+
+.contacts {
+    font-family: 'Roboto',sans-serif;
+    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: #757575;
+    text-decoration: none;
+    
+
+}
+
+.contact-list, .footer-list, .nav-list, .contact-list{
+        list-style-type: none;
+    }
+
+    .contacts:hover, .contacts:focus {
+        color: #2196F3;
+    }
+/* ---------------------main--------------------------- */
+
+
+body{
+    font-family: 'Roboto',sans-serif ;
+}
+.buttons-group {
+display: flex;
+gap: 8px;
+justify-content: center;
+}
+
+
+.btn {
+    font-family: 'Roboto',sans-serif;
+        
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        /* identical to box height, or 162% */
+    
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color: #212121;
+        background-color:#F5F4FA;
+        border-radius: 4px;
+}
+.btn:hover {
+    background-color:#2196F3;
+}
+.buttons-group, .products{
+    list-style: none;
+    margin-bottom: 56px;
+}
+.product-title {
+    
+        
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        
+    
+        letter-spacing: 0.06em;
+    
+        color: #212121;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.product-item{
+    flex-basis: calc((100%-2*30px) / 4);
+}
+
+
+.product-type {
+   
+        
+        
+        font-size: 16px;
+        line-height: 1.87;
+        
+    
+        letter-spacing: 0.03em;
+    
+        color: #757575;
+}
+/* -------------------------------footer------------------------- */
+
+.address {
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    
+    font-size: 14px;
+    line-height:1.71;
+    font-style: normal;
+
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
+}
+
+.footer {
+    background: #2F303A;
+    
+}
+
+.logo-footer {
+    color: white;
+}
+.contacts-footer {
+    font-family: 'Roboto';
+        font-style: normal;
+        
+        font-size: 14px;
+        line-height:1.71;
+    
+        letter-spacing: 0.03em;
+    
+        color: rgba(255, 255, 255, 0.6);
+        text-decoration: none;
+}
+
+.footer-container{
+    margin-left: 215px;
+}

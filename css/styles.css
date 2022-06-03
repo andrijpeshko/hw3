@@ -1,0 +1,280 @@
+/* ----------------------------header------------------------ */
+.web, .logo
+{
+    color: #2196F3;
+    font-family: 'Raleway' sans-serif;
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        /* identical to box height */
+    
+        letter-spacing: 0.03em;
+    
+    
+}
+.logo {
+    
+    color: #000000;
+    text-decoration: none;
+    
+}
+.navigation{
+   
+        font-family: 'Roboto',sans-serif;
+            
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 1.14;
+            letter-spacing: 0.02em;
+        
+            color: #212121;
+            list-style: none;
+            text-decoration: none;
+            
+        
+}
+.navigation:hover, .navigation:focus {
+    color: #2196F3;;
+
+}
+.contacts {
+font-family: 'Roboto',sans-serif;
+    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: #757575;
+    text-decoration: none;
+    
+}
+.contact-list, .gallery, .about, .co-worker-list, .contact-list-footer, .nav-list {
+    list-style-type: none;
+}
+.contacts:hover{
+    color: #2196F3;
+}
+.header {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    
+   
+    justify-content: space-around;
+
+}
+.nav-list {
+    display: flex;
+    gap: 50px;
+}
+.contact-list {
+    display: flex;
+    text-align: center;
+    gap: 50px;
+}
+
+.contact-list:first-child{
+    margin-left: 331px;
+}
+
+/* --------------------------------------main-------------------------- */
+
+body{
+    font-family: 'Roboto',
+        sans-serif;
+}
+.hero {
+    text-align: center;
+    
+    display: block;
+    margin: 0 auto;
+    
+}
+.hero-title {
+    
+        
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+    
+        color: #FFFFFF; 
+       
+           
+
+        
+        
+        
+     
+}
+.hero {
+    background-color: #2F303A;
+    height: 600px;
+}
+.hero-container{
+    padding-top:  200px;
+}
+.btn {
+    font-family: 'Roboto',sans-serif;
+        
+        font-weight: 700;
+        font-size: 16px;
+        line-height:1.87;
+        color: #FFFFFF;
+        letter-spacing: 0.06em;
+        background: #2196F3;
+        text-align: center;
+        ;
+        display: flex;
+        margin: 0 auto;
+       
+       
+           
+}
+.about{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 94px;
+    margin-bottom: 94px;
+}
+.about-title{
+   
+       
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    
+        color: #212121;
+        width: 270px;
+        height: 16px;
+}
+.about-description {
+    
+        
+        
+        font-size: 14px;
+        line-height: 1.71;
+        
+    
+        letter-spacing: 0.03em;
+    
+        color: #757575;
+
+        width: 270px;
+        height: 75px;
+}
+
+.gallery-title, .co-workers-title {
+   
+        
+        font-weight: 700;
+        font-size: 36px;
+        line-height:1.16;
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color: #212121;
+}
+.co-workers {
+    background: #F5F4FA;
+}
+.co-worker-list{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.gallery{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.co-worker-name{
+    
+        
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.18x;
+        /* identical to box height */
+    
+        
+        letter-spacing: 0.03em;
+    
+        color: #212121;
+}
+.co-worker-profession {
+   
+        
+        
+        font-size: 16px;
+        line-height:1.18;
+        /* identical to box height */
+    
+       
+        letter-spacing: 0.03em;
+    
+        color: #757575;
+}
+/* ----------------------------footer---------------------------- */
+.address {
+    font-family: 'Roboto',sans-serif;
+        
+        
+        font-size: 14px;
+        line-height: 1.71;
+        font-style: normal;
+    
+        letter-spacing: 0.03em;
+    
+        color: #FFFFFF;
+}
+.footer{
+background: #2F303A;
+display: block;
+}
+.logo-footer {
+    color: white;
+}
+.contacts-list-footer {
+    list-style: none;
+}
+.contacts-footer {
+    font-family: 'Roboto';
+        font-style: normal;
+        
+        font-size: 14px;
+        line-height: 1.7;
+        
+    
+        letter-spacing: 0.03em;
+    
+        color: rgba(255, 255, 255, 0.6);
+        text-decoration: none;
+}
+.footer-container {
+    margin-left: 215px;
+}
+.address {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
