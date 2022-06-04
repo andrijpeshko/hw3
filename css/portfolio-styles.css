@@ -87,6 +87,12 @@
     .contacts:hover, .contacts:focus {
         color: #2196F3;
     }
+    .container{
+        display: flex;
+        padding-left: 215px;
+        padding-right: 215px;
+        align-items: center;
+    }
 /* ---------------------main--------------------------- */
 
 
@@ -98,6 +104,9 @@ display: flex;
 gap: 8px;
 justify-content: center;
 }
+
+
+
 
 
 .btn {
@@ -114,13 +123,14 @@ justify-content: center;
         color: #212121;
         background-color:#F5F4FA;
         border-radius: 4px;
+        padding:  6px 22px;
 }
 .btn:hover {
     background-color:#2196F3;
 }
 .buttons-group, .products{
     list-style: none;
-    margin-bottom: 56px;
+    margin-bottom: 50px;
 }
 .product-title {
     
@@ -133,6 +143,7 @@ justify-content: center;
         letter-spacing: 0.06em;
     
         color: #212121;
+        margin-top: 0px;
 }
 .products{
     display: flex;
@@ -143,8 +154,15 @@ justify-content: center;
 
 .product-item{
     flex-basis: calc((100%-2*30px) / 4);
-}
+    width: 370px;
+    padding-top: 0px;
+    margin-top: 0px;
 
+}
+.products > [img]{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
 
 .product-type {
    
@@ -158,14 +176,24 @@ justify-content: center;
     
         color: #757575;
 }
+.card {
+    border: 1px solid #EEEEEE;
+
+        width: 345px;
+    border-top: transparent;
+
+    padding-left: 24px;
+padding-top: 0px;
+margin-top: 0px;
+}
 /* -------------------------------footer------------------------- */
 
 .address {
-    font-family: 'Roboto',sans-serif;
-    font-style: normal;
-    
+    font-family: 'Roboto', sans-serif;
+
+
     font-size: 14px;
-    line-height:1.71;
+    line-height: 1.71;
     font-style: normal;
 
     letter-spacing: 0.03em;
@@ -175,25 +203,39 @@ justify-content: center;
 
 .footer {
     background: #2F303A;
-    
+
+
 }
 
 .logo-footer {
     color: white;
-}
-.contacts-footer {
-    font-family: 'Roboto';
-        font-style: normal;
-        
-        font-size: 14px;
-        line-height:1.71;
-    
-        letter-spacing: 0.03em;
-    
-        color: rgba(255, 255, 255, 0.6);
-        text-decoration: none;
+    padding-left: 215px;
+
 }
 
-.footer-container{
-    margin-left: 215px;
+.contacts-list-footer {
+    list-style: none;
+    padding: 0;
+    font-style: normal;
+}
+
+.contacts-footer {
+    font-family: 'Roboto';
+    font-style: normal;
+
+    font-size: 14px;
+    line-height: 1.7;
+
+
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+.address {}
+
+.footer-container {
+    padding-left: 215px;
+
 }

@@ -15,21 +15,24 @@
 </head>
 <body>
     <header class="header">
-<a href="index.html" class="logo"><span class="web">Web</span>Studio</a>
-<nav>
-    <ul class="nav-list">
-        <li><a href="" class="navigation">Студия</a></li>
-        <li><a href="portfolio.html" class="navigation">Портфолио</a></li>
-        <li><a href="" class="navigation">Контакты</a></li>
+        <div class="container">
+            <a href="index.html" class="logo"><span class="web">Web</span>Studio</a>
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="" class="navigation">Студия</a></li>
+                    <li><a href="portfolio.html" class="navigation">Портфолио</a></li>
+                    <li><a href="" class="navigation">Контакты</a></li>
+            
+                </ul>
+            </nav>
+            <div class="contacts-container">
+                <ul class="contact-list">
+                    <li><a class="contacts" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li><a class="contacts" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                </ul>
+            </div>
+        </div>
 
-    </ul>
-</nav>
-<div >
-    <ul class="contact-list">
-        <li ><a class="contacts" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li ><a class="contacts" href="tel:+380961111111">+38 096 111 11 11</a></li>
-    </ul>
-</div>
    
     
 
@@ -74,19 +77,19 @@
         <section class="co-workers">
             <h2 class="co-workers-title">Наша команда</h2>
             <ul class="co-worker-list">
-                <li><img src="./img/co-worker1.jpg" alt="сотрудник" width="270" height="260">
+                <li class="card"><img src="./img/co-worker1.jpg" alt="сотрудник" width="270" height="260">
                     <h3 class="co-worker-name">Игорь Демьяненко</h3>
                     <p lang="en" class="co-worker-profession">Product Designer</p>
                 </li>
-                    <li><img src="./img/co-worker2.jpg" alt="сотрудник" width="270" height="260">
+                    <li class="card"><img src="./img/co-worker2.jpg" alt="сотрудник" width="270" height="260">
                         <h3 class="co-worker-name">Ольга Репина</h3>
                         <p lang="en" class="co-worker-profession">Frontend Developer</p>
                     </li>
-                    <li><img src="./img/co-worker3.jpg" alt="сотрудник" width="270" height="260">
+                    <li class="card"><img src="./img/co-worker3.jpg" alt="сотрудник" width="270" height="260">
                         <h3 class="co-worker-name">Николай Тарасов</h3>
                         <p lang="en" class="co-worker-profession">Marketing</p>
                     </li>
-                    <li><img src="./img/co-worker4.jpg" alt="сотрудник" width="270" height="260">
+                    <li class="card"><img src="./img/co-worker4.jpg" alt="сотрудник" width="270" height="260">
                         <h3 class="co-worker-name">Михаил Ермаков</h3>
                         <p lang="en" class="co-worker-profession">UI Designer</p>
                     </li>
@@ -96,16 +99,17 @@
 
     </main>
     <footer class="footer">
-        <div class="footer-container">
-            <a href="index.html" class="logo-footer logo"><span class="web">Web</span>Studio</a>
         
-        <address>
+            <a href="index.html" class="logo-footer logo"><span class="web">Web</span>Studio</a>
+        <div class="footer-container"> 
+        <address >
             <p class="address">г. Киев, пр-т Леси Украинки, 26</p>
             <ul class="contacts-list-footer">
                 <li><a href="mailto:info@example.com" class="contacts-footer">info@example.com</a></li>
                 <li><a href="tel:+380991111111" class="contacts-footer">+38 099 111 11 11</a></li>
             </ul>
-        </address></div>
+        </address>
+        </div>
         
     </footer>
 

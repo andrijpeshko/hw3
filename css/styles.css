@@ -57,27 +57,34 @@ font-family: 'Roboto',sans-serif;
 .contacts:hover{
     color: #2196F3;
 }
-.header {
+.container {
     display: flex;
-    align-items: center;
     height: 80px;
-    
-   
+    left: 0px;
+    top: 0px;
+    align-items: center;
+    padding-left: 215px;
+    padding-right: 215px;
     justify-content: space-around;
-
 }
 .nav-list {
     display: flex;
     gap: 50px;
+    margin-left: 93px;
 }
 .contact-list {
     display: flex;
     text-align: center;
     gap: 50px;
+    margin-left: 331px;
 }
 
 .contact-list:first-child{
-    margin-left: 331px;
+    
+}
+.contacts-container{
+    display: flex;
+    
 }
 
 /* --------------------------------------main-------------------------- */
@@ -114,33 +121,48 @@ body{
 .hero {
     background-color: #2F303A;
     height: 600px;
+    padding-top: 200px;
+    padding-left: 0px ;
+    padding-left: 542px;
+    padding-right: 542px;
+    max-width: 1600px;
+
 }
 .hero-container{
-    padding-top:  200px;
+    
+    
+    
+
 }
 .btn {
     font-family: 'Roboto',sans-serif;
         
         font-weight: 700;
         font-size: 16px;
-        line-height:1.87;
+        line-height: 1.87;
         color: #FFFFFF;
         letter-spacing: 0.06em;
         background: #2196F3;
-        text-align: center;
-        ;
         display: flex;
         margin: 0 auto;
+        width: 200px;
+        height: 50px;
+                align-items: center;
+                text-align: center;
+                justify-self: center;
+       
        
        
            
 }
+
 .about{
     display: flex;
     gap: 30px;
     justify-content: center;
     margin-top: 94px;
     margin-bottom: 94px;
+    padding: 0px;
 }
 .about-title{
    
@@ -154,6 +176,9 @@ body{
         color: #212121;
         width: 270px;
         height: 16px;
+        margin: 0px;
+        padding: 0px;
+        margin-bottom: 10px;
 }
 .about-description {
     
@@ -169,6 +194,8 @@ body{
 
         width: 270px;
         height: 75px;
+        margin: 0px;
+        padding: 0px;
 }
 
 .gallery-title, .co-workers-title {
@@ -182,6 +209,10 @@ body{
     
         color: #212121;
 }
+.gallery-title{
+    margin-bottom: 50px;
+    margin-top: 0px;
+}
 .co-workers {
     background: #F5F4FA;
 }
@@ -189,11 +220,13 @@ body{
     display: flex;
     gap: 30px;
     justify-content: center;
+    
 }
 .gallery{
     display: flex;
     gap: 30px;
     justify-content: center;
+    padding-bottom: 94px;
 }
 
 .co-worker-name{
@@ -208,11 +241,19 @@ body{
         letter-spacing: 0.03em;
     
         color: #212121;
+        padding: 0px;
+}
+
+.card{
+ 
+}
+.co-worker-list{
+    justify-content: center;
 }
 .co-worker-profession {
    
         
-        
+        display: flex;
         font-size: 16px;
         line-height:1.18;
         /* identical to box height */
@@ -221,7 +262,9 @@ body{
         letter-spacing: 0.03em;
     
         color: #757575;
+        padding-top: 10px;
 }
+
 /* ----------------------------footer---------------------------- */
 .address {
     font-family: 'Roboto',sans-serif;
@@ -237,13 +280,18 @@ body{
 }
 .footer{
 background: #2F303A;
-display: block;
+
+
 }
 .logo-footer {
     color: white;
+    padding-left: 215px;
+
 }
 .contacts-list-footer {
     list-style: none;
+    padding: 0;
+    font-style: normal;
 }
 .contacts-footer {
     font-family: 'Roboto';
@@ -258,11 +306,15 @@ display: block;
         color: rgba(255, 255, 255, 0.6);
         text-decoration: none;
 }
-.footer-container {
-    margin-left: 215px;
-}
+
 .address {
-    display: block;
+
+
+}
+
+.footer-container {
+padding-left: 215px;
+
 }
 
 
