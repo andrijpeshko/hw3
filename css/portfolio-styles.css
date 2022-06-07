@@ -156,6 +156,9 @@ justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
     justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 95px;
 }
 
 .product-item{
@@ -192,6 +195,10 @@ justify-content: center;
 padding-top: 0px;
 margin-top: 0px;
 }
+
+.products_section{
+    
+}
 /* -------------------------------footer------------------------- */
 
 .address {
@@ -209,7 +216,8 @@ margin-top: 0px;
 
 .footer {
     background: #2F303A;
-
+padding-top: 60px;
+padding-bottom: 60px;
 
 }
 
