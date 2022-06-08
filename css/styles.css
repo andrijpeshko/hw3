@@ -62,10 +62,11 @@ font-family: 'Roboto',sans-serif;
     align-items: center;
     padding-left: 15px;
     padding-right: 15px;
-justify-content: space-around;
+
     
 
-    margin: 0px;
+    margin: 0px auto;
+    width: 1200px;
     
     
 }
@@ -76,13 +77,15 @@ justify-content: space-around;
 .nav-list {
     display: flex;
     gap: 50px;
+    margin: 0px;
     margin-left: 93px;
+
 }
 .contact-list {
     display: flex;
     text-align: center;
     gap: 50px;
-    margin-left: 331px;
+
 }
 
 .contact-list:first-child{
@@ -90,6 +93,7 @@ justify-content: space-around;
 }
 .contacts-container{
     display: flex;
+        margin-left: auto;
     
 }
 
@@ -137,7 +141,7 @@ padding-top: 200px;
 }
 .hero {
     background-color: #2F303A;
-    height: 600px;
+padding-bottom: 210px;
     
 
 
@@ -199,11 +203,14 @@ padding-top: 200px;
 .container-about{
     padding-top: 94px;
     padding-bottom: 94px;
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
     
 }
 .about-section{
-    padding-left:215px;
-    padding-right: 215px;
+    
 }
 .about-description {
     
@@ -255,8 +262,9 @@ padding-top: 200px;
     display: flex;
     gap: 30px;
     justify-content: center;
-    padding-bottom: 94px;
+    
     margin: 0px;
+    margin-bottom: 94px;
     padding: 0px;
 }
 .gallery-container {
@@ -287,7 +295,8 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0p
     border-radius: 0px 0px 4px 4px;
 }
 .co-worker-list{
-    margin: 0px;
+    margin: 0px auto;
+    width: 1200px;
 }
 .co-worker-profession {
    
@@ -321,9 +330,10 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0p
 }
 .co-workers-title{
     margin: 0px;
-    padding-top: 94px;
-    padding-bottom: 50px;
+    
+    margin-bottom: 50px;
 }
+
 /* ----------------------------footer---------------------------- */
 .address {
     font-family: 'Roboto',sans-serif;
@@ -341,12 +351,13 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0p
 background: #2F303A;
 padding-top: 60px;
 padding-bottom: 60px;
+width: 1200;
 
 
 }
 .logo-footer {
     color: white;
-    padding-left: 215px;
+
 
 }
 .contacts-list-footer {
@@ -374,8 +385,8 @@ padding-bottom: 60px;
 }
 
 .footer-container {
-padding-left: 215px;
-
+width: 1200px;
+margin: 0 auto;
 }
 
 

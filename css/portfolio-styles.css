@@ -70,35 +70,43 @@
     align-items: center;
     padding-left: 15px;
     padding-right: 15px;
-    justify-content: space-around;
-    margin: 0 auto;
-    padding-top: 32px;
-    padding-bottom: 32px;
 
+
+
+    margin: 0px auto;
+    width: 1200px;
+
+
+}
+
+.header {
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .nav-list {
     display: flex;
     gap: 50px;
+    margin: 0px;
     margin-left: 93px;
+
 }
 
 .contact-list {
     display: flex;
     text-align: center;
     gap: 50px;
-    margin-left: 331px;
+
 }
 
 .contact-list:first-child {}
 
 .contacts-container {
     display: flex;
+    margin-left: auto;
 
 }
-.header{
-    border-bottom: 1px solid #ECECEC;
-}
+
 /* ---------------------main--------------------------- */
 
 
@@ -130,6 +138,7 @@ justify-content: center;
         background-color:#F5F4FA;
         border-radius: 4px;
         padding:  6px 22px;
+        margin-top: 0px;
 }
 .btn:hover {
     background-color:#2196F3;
@@ -137,6 +146,8 @@ justify-content: center;
 .buttons-group, .products{
     list-style: none;
     margin-bottom: 50px;
+    margin-top: 0px;
+    padding: 0px;
 }
 .product-title {
     
@@ -149,7 +160,8 @@ justify-content: center;
         letter-spacing: 0.06em;
     
         color: #212121;
-        margin-top: 0px;
+        margin: 0px;
+        padding-bottom: 5px;
 }
 .products{
     display: flex;
@@ -184,6 +196,8 @@ justify-content: center;
         letter-spacing: 0.03em;
     
         color: #757575;
+        margin: 0px;
+        
 }
 .card {
     border: 1px solid #EEEEEE;
@@ -194,13 +208,18 @@ justify-content: center;
     padding-left: 24px;
 padding-top: 0px;
 margin-top: 0px;
+padding-top: 20px;
+padding-left: 24px;
 }
 
 .products_section{
     
 }
+.products-section{
+    padding-top: 100px;
+    padding-bottom: 95px;
+}
 /* -------------------------------footer------------------------- */
-
 .address {
     font-family: 'Roboto', sans-serif;
 
@@ -216,14 +235,16 @@ margin-top: 0px;
 
 .footer {
     background: #2F303A;
-padding-top: 60px;
-padding-bottom: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 1200;
+
 
 }
 
 .logo-footer {
     color: white;
-    padding-left: 215px;
+
 
 }
 
@@ -250,6 +271,8 @@ padding-bottom: 60px;
 .address {}
 
 .footer-container {
-    padding-left: 215px;
-
+    width: 1200px;
+    margin: 0 auto;
 }
+
+
