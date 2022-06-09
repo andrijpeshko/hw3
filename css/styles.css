@@ -85,6 +85,8 @@ font-family: 'Roboto',sans-serif;
     display: flex;
     text-align: center;
     gap: 50px;
+    margin: 0px;
+    padding-left: 0px;
 
 }
 
@@ -201,16 +203,17 @@ padding-bottom: 210px;
         padding-bottom: 10px;
 }
 .container-about{
-    padding-top: 94px;
-    padding-bottom: 94px;
+    
     width: 1200px;
     margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    
     
 }
 .about-section{
-    
+    padding-top: 94px;
+        padding-bottom: 94px;
+        padding-left: 15px;
+            padding-right: 15px;
 }
 .about-description {
     
@@ -243,7 +246,7 @@ padding-bottom: 210px;
 }
 .gallery-title{
    margin: 0px; 
-   padding-bottom: 50px;
+   margin-bottom: 50px;
 
 }
 .co-workers {
@@ -264,11 +267,14 @@ padding-bottom: 210px;
     justify-content: center;
     
     margin: 0px;
-    margin-bottom: 94px;
+
     padding: 0px;
 }
 .gallery-container {
 
+    
+}
+.gallery-section {
     padding-bottom: 94px;
 }
 
@@ -364,6 +370,7 @@ width: 1200;
     list-style: none;
     padding: 0;
     font-style: normal;
+    margin: 0px;
 }
 .contacts-footer {
     font-family: 'Roboto';
@@ -377,7 +384,14 @@ width: 1200;
     
         color: rgba(255, 255, 255, 0.6);
         text-decoration: none;
+        margin: 0px;
 }
+.mail{
+    margin-bottom: 10px;
+}
+    
+    
+
 
 .address {
 
