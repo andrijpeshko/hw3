@@ -61,6 +61,11 @@
         list-style-type: none;
     }
 
+.contacts:hover,
+.icon:hover {
+    color: #2196F3;
+}
+
 .container {
     display: flex;
     align-items: center;
@@ -74,7 +79,6 @@
 
 
 }
-
 .header {
     padding-top: 25px;
     padding-bottom: 25px;
@@ -95,6 +99,7 @@
     gap: 50px;
     margin: 0px;
     padding-left: 0px;
+    align-items: center;
 
 }
 
@@ -103,6 +108,12 @@
 .contacts-container {
     display: flex;
     margin-left: auto;
+
+}
+
+.icon {
+    fill: currentColor;
+    margin-right: 10px;
 
 }
 
@@ -141,6 +152,8 @@ justify-content: center;
 }
 .btn:hover {
     background-color:#2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+        border-radius: 4px;
 }
 .buttons-group, .products{
     list-style: none;
@@ -209,6 +222,10 @@ padding-top: 0px;
 margin-top: 0px;
 padding-top: 20px;
 padding-left: 24px;
+}
+.product-item:hover,.product-item:focus{
+    border: 1px solid #EEEEEE;
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .products_section{
@@ -285,6 +302,67 @@ padding-left: 24px;
 .footer-container {
     width: 1200px;
     margin: 0 auto;
+    display: flex;
+
 }
 
 
+.social-footer {
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.social-footer-container {
+    display: flex;
+    width: 206px;
+    height: 80px;
+    flex-wrap: wrap;
+    margin-left: 70px;
+    color: #FFFFFF;
+    padding-top: 12px;
+}
+
+.title-social-footer {
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.social-footer {
+    gap: 10px;
+}
+
+.social-link-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #FFFFFF1A;
+    color: #ffffff;
+    fill: #FFFFFf;
+    align-self: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.social-link-footer:hover {
+
+    background-color: #2196F3;
+
+    fill: #FFFFFf;
+
+}
+
+.social-icon:hover {
+    fill: #FFFFFF;
+
+}
+
+.social-link-footer:hover .social-icon,
+.social-link-footer:focus .social-icon {
+    fill: white;
+}
