@@ -54,7 +54,7 @@ font-family: 'Roboto',sans-serif;
 .contact-list, .gallery, .about, .co-worker-list, .contact-list-footer, .nav-list {
     list-style-type: none;
 }
-.contacts:hover, .icon:hover{
+.contacts:hover, .icon:hover, .contacts:focus, .icon:focus{
     color: #2196F3;
 }
 .container {
@@ -361,7 +361,7 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0p
 
 
     padding-top: 30px;
-    padding-bottom: 30px;
+   
 
 }
 .co-workers-title{
@@ -375,6 +375,7 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0p
     padding: 0px;
     justify-content: center;
     gap: 10px;
+   padding-top: 16px;
 }
 .social-icon{
     fill:#AFB1B8;
@@ -401,14 +402,14 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0p
             margin: 0px;
             padding: 0px;
 }
-.social-link:hover{
+.social-link:hover, .social-link:focus{
     
         background-color: #2196F3;
 
         fill: #FFFFFf;
       
 }
-.social-icon:hover{
+.social-icon:hover, .social-icon:focus{
   fill: #FFFFFF;
     
 }
@@ -417,16 +418,14 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0p
     fill: white;
 }
 .card{
-    padding-bottom: 30px;
+   padding-bottom: 30px; 
 }
 .cliens-img{
     fill:#AFB1B8;
     
 }
 
-.cliens-img:hover{
-    fill: #2196F3;
-}
+
 
 .clients-list{
     display: flex;
@@ -436,15 +435,35 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0p
     padding: 0px;
 }
 .client-item{
-    border: 1px solid #AFB1B8;
-        border-radius: 4px;
+    
 }
 
 .client-item:hover{
-border: 1px solid #2196F3;
-    border-radius: 4px;
-}
 
+}
+.clients-link{
+    border: 1px solid #AFB1B8;
+        border-radius: 4px;
+       
+        padding-top: 92px;
+        color: tomato;
+}
+.clients-link:hover, .clients-link:focus{
+    border: 1px solid #2196F3 ;
+        border-radius: 4px;
+    
+        padding-top: 92px;
+        fill: #2196F3;
+        color: #2196F3;
+        
+}
+.clients-img:hover{
+fill: currentColor;
+}
+.clients-img{
+    fill: currentColor;
+    color: currentColor;
+}
 .clients-link{
   
 }
@@ -578,7 +597,7 @@ display: flex;
         margin: 0px;
         padding: 0px;
 }
-.social-link-footer:hover {
+.social-link-footer:hover, .social-link-footer:focus {
 
     background-color: #2196F3;
 
@@ -586,14 +605,14 @@ display: flex;
 
 }
 
-.social-icon:hover {
+.social-icon:hover, .social-icon:focus {
     fill: #FFFFFF;
 
 }
 
 .social-link-footer:hover .social-icon,
-.social-link-footer:focus .social-icon {
-    fill: white;
+.social-link-footer:focus .social-icon  {
+    fill:#FFFFFF;
 }
 
 
