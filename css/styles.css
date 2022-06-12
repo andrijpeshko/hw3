@@ -438,17 +438,16 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0p
     display: block;
 }
 
-.client-item:hover{
 
-}
 .clients-link{
     border: 1px solid #AFB1B8;
         border-radius: 4px;
       
-        color: tomato;
+      
 }
 .cliens-img{
     fill: currentColor;
+    
 }
 .clients-link:hover, .clients-link:focus{
     border: 1px solid #2196F3 ;
@@ -458,13 +457,12 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0p
         
         color: #2196F3;
         
-}
-.clients-img:hover{
 
 }
 .clients-img{
     fill: currentColor;
     color: currentColor;
+    display: block;
 }
 .clients-link{
   
@@ -473,9 +471,8 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0p
   
     flex-grow: 1;
 }
-.cliens-img:hover{
-    fill: tomato;
-}
+  
+
 .title-clients{
     display: flex;
     justify-content: center;
@@ -500,6 +497,9 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0p
     border:1px solid #2196F3;
     border-radius: 4px;
 
+}
+.clients-link{
+    color: #AFB1B8
 }
 /* ----------------------------footer---------------------------- */
 .address {
