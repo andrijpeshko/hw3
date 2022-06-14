@@ -585,6 +585,16 @@ display: flex;
     padding-top: 12px;
 }
 .title-social-footer{
+    
+    
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+    
+    
     margin-bottom: 20px;
     margin-top: 0px;
 }
@@ -626,6 +636,8 @@ display: flex;
 
 
 
-
+.social-icon{
+    fill: #FFFFFF;
+}
 
 
